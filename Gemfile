@@ -7,7 +7,10 @@ gem 'carrierwave',             '0.10.0'
 gem 'mini_magick',             '3.8.0'
 gem 'fog',                     '1.36.0'
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3','1.3.13'
+gem 'sqlite3', '1.3.13', group: :development
+#本番ではpostgressを使用する
+gem 'pg', '~> 0.19.0', group: :production
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
