@@ -10,11 +10,7 @@
   <div class="col-md-8">
     <%= render 'follow_form' if logged_in? %>
     <% if @user.microposts.any? %>
-<<<<<<< HEAD
       <h3>Microposts (<%= @user.microposts.count %>)</h3>
-=======
-      <h3>Dposts (<%= @user.microposts.count %>)</h3>
->>>>>>> 47655057a626c54915601275d184a9863967c294
       <ol class="microposts">
         <%= render @microposts %>
       </ol>
