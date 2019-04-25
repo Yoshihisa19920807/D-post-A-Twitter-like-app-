@@ -15,8 +15,13 @@ module DPostsGit
       g.javascripts false
       g.helper false
       g.test_framework false
+<<<<<<< HEAD
       
     end
     config.action_view.embed_authenticity_token_in_remote_forms = true
+=======
+      config.action_view.embed_authenticity_token_in_remote_forms = true
+    end
+>>>>>>> 47655057a626c54915601275d184a9863967c294
   end
 end
